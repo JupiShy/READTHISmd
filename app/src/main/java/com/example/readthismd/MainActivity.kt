@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.compose.material3.Surface
 import com.example.readthismd.feature_auth.presentation.LoginScreen
 import com.example.readthismd.core.ui.theme.ReadThisTheme
+import com.example.readthismd.feature_main.MainScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,7 +15,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             ReadThisTheme {
                 Surface(color = androidx.compose.material3.MaterialTheme.colorScheme.background) {
-                    LoginScreen()
+                    MainScreen()
                 }
             }
         }
