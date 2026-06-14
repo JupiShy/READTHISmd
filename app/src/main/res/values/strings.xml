@@ -6,4 +6,8 @@
     <string name="profile">Profile</string>
     <string name="editor">Editor</string>
     <string name="explorer">Explorer</string>
+    <string name="editor_placeholder_title">Hey, It\'s a title!</string>
+    <string name="editor_placeholder_content">This code is cool and…</string>
+    <string name="edit">Edit</string>
+    <string name="preview">Preview</string>
 </resources>

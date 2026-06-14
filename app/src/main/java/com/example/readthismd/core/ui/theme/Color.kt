@@ -7,3 +7,7 @@ val PrimaryColor = Color(0xFF24292E) // GitHub Dark
 val OnPrimaryColor = Color(0xFFFFFFFF)
 val SecondaryColor = Color(0xFF0366D6) // GitHub Blue
 val BackgroundColor = Color(0xFFF6F8FA) // GitHub Light Background
+
+val EditorBackground = Color(0xFF0d1117)
+val EditorBackgroundFocused = Color(0xFF090c10)
+val CursorColorBlue = Color(0xFF58a6ff)

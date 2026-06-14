@@ -16,6 +16,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
@@ -26,6 +27,7 @@ import com.example.readthismd.core.navigation.EditorRoute
 import com.example.readthismd.core.navigation.ExplorerRoute
 import com.example.readthismd.core.navigation.ProfileRoute
 import com.example.readthismd.feature_auth.presentation.LoginScreen
+import com.example.readthismd.feature_editor.presentation.EditorScreen
 
 @Composable
 fun MainScreen(){
@@ -92,9 +94,7 @@ fun MainScreen(){
                 LoginScreen()
             }
             composable<EditorRoute> {
-                Box(Modifier.fillMaxSize()) {
-                    Text("Soon there will be Editor")
-                }
+                EditorScreen()
             }
             composable<ExplorerRoute>
             {
